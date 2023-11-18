@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  height: 80px;
+  background-color: rgb(73, 70, 70);
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.1rem solid wheat;
+}
+
+.logo h1 {
+  color: wheat;
+}
+
+.search-notes {
+  padding-top: 1rem;
+  width: 350px;
+  height: 50px;
+}
+.search-notes input {
+  width: 350px;
+  height: 30px;
+  border-radius: 0.4rem;
+  background-color: transparent;
+  color: wheat;
+  border: 0.2rem solid wheat;
+  cursor: pointer;
+}
+.search-notes input::placeholder {
+  font-size: 1rem;
+}

@@ -1,0 +1,81 @@
+.container-view {
+  width: 100%;
+
+  /* display: flex; */
+  /* justify-content: space-around; */
+  padding: 1rem;
+}
+.not-act {
+  color: wheat;
+  margin-left: 100px;
+}
+.jud-cat {
+  font-size: 30px;
+  margin-left: 150px;
+}
+.card-container {
+  padding: 0.2rem;
+  width: 99%;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.satu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  border: 0.2rem solid wheat;
+  margin: 3rem 1rem 0;
+  border-radius: 15px;
+}
+.items {
+  color: wheat;
+  padding: 0.5rem;
+  line-height: 0.2;
+}
+.des-note {
+  text-align: justify;
+  line-height: 1;
+}
+.tombol {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid wheat;
+}
+.hapus {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-s {
+  width: 50%;
+  /* height: 100%; */
+  /* border: 0.1rem solid wheat; */
+  background-color: transparent;
+  color: wheat;
+  padding: 10px;
+  /* outline: none; */
+  border: none;
+  cursor: pointer;
+}
+.br-border {
+  border-right: 1px solid wheat !important;
+}
+.br-y:hover {
+  scale: 0.98;
+  color: rgb(233, 250, 47);
+  transition: ease-in-out 0.3s;
+}
+.br-border:hover {
+  color: red;
+  scale: 0.98;
+  transition: ease-in-out 0.3s;
+}
+.del-0 {
+  color: white;
+  font-size: 2rem;
+}
