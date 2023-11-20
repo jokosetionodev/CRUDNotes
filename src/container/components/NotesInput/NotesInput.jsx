@@ -5,6 +5,8 @@ function NotesInput({ addNote }) {
   const [isBody, setBody] = useState("");
 
   const onAddNote = () => {
+    if (!isTitle || !isBody) return alert("Form Tidak Boleh Kosong");
+
     const data = {
       id: Date.now(),
       title: isTitle,
